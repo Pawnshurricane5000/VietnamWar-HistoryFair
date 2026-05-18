@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Historical Context | Drafted Into Dissent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-top">
+    <div class="site-brand">★ APUSH History Fair 2026</div>
+    <div class="site-title-mini">Drafted Into Dissent</div>
+    <button class="menu-toggle" onclick="document.querySelector('.page-nav').classList.toggle('open')">MENU</button>
+  </div>
+  <nav class="page-nav">
+    <a href="index.html">Home</a>
+    <a href="context.html" class="active">Historical Context</a>
+    <a href="disobedience.html">Civil Disobedience</a>
+    <a href="inequality.html">Inequality Exposed</a>
+    <a href="civil-rights.html">Civil Rights Coalition</a>
+    <a href="legacy.html">Legacy</a>
+    <a href="bibliography.html">Bibliography</a>
+  </nav>
+</header>
+
+<main>
+
+  <section class="page-banner">
+    <div class="page-eyebrow">Section I</div>
+    <h1 class="page-title">Historical <em>Context</em></h1>
+    <p class="page-subtitle">The road to Saigon and the machinery of the draft</p>
+  </section>
+
+  <div class="container">
+    <section class="content">
+
+      <p class="intro-text">Before the resistance, there was the system. Understanding how the United States ended up in Vietnam, and how it filled its ranks, is essential to understanding why so many Americans refused to comply.</p>
+
+      <div class="section-block">
+        <h2>From Dien Bien Phu to Tonkin</h2>
+        <p>After a prolonged struggle between Japanese and French forces over Vietnam, the nationalist leader Ho Chi Minh declared independence and defeated France at the Battle of Dien Bien Phu in 1954. The Geneva Accords that followed split the country in two: a communist North under Ho Chi Minh, and a southern republic under Emperor Bao Dai.</p>
+        <p>As the Cold War deepened, U.S. policymakers grew alarmed at the prospect of a unified communist Vietnam. The Gulf of Tonkin incident in 1964 became the formal pretext for American military escalation, and within a year the nation was at war.</p>
+      </div>
+
+      <div class="split">
+        <div>
+          <div class="img-placeholder">
+            <div class="icon">🗺️</div>
+            <div class="desc">Suggested: Map showing the partition of Vietnam at the 17th parallel after the Geneva Accords (1954).</div>
+          </div>
+          <div class="img-caption">Fig. 1 — Divided Vietnam, 1954</div>
+        </div>
+        <div>
+          <div class="img-placeholder">
+            <div class="icon">📰</div>
+            <div class="desc">Suggested: Front-page headline announcing the Gulf of Tonkin Resolution, or a photograph of U.S. troops deploying to Vietnam in 1965.</div>
+          </div>
+          <div class="img-caption">Fig. 2 — U.S. Escalation, 1964–65</div>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <h2>The lottery, and the loopholes</h2>
+        <p>The Selective Service lottery, formalized in 1969, was designed to assign induction priority by birth date. Capsules representing every day of the year were drawn from a jar; whichever date came up first sent its men to the top of the call list. Statisticians quickly noted that the 1969 drawing was not truly random; later months were systematically overrepresented in the early picks. Despite legal challenges, the lottery was upheld.</p>
+        <p>More importantly, deferments built into the system meant the lottery never touched everyone equally. <strong>College enrollment, certain occupations, hardship status, and medical conditions could all keep a young man out of uniform.</strong> Those without access to lawyers, doctors, or universities had no such options. The randomness was a fiction.</p>
+        <p>As the war intensified, the federal government tightened deferments. By 1967, monthly induction calls topped 30,000, and the burden of compliance pressed hardest on the men least able to escape it.</p>
+      </div>
+
+      <div class="img-placeholder">
+        <div class="icon">🎲</div>
+        <div class="desc">Suggested: Photograph of the December 1, 1969 draft lottery drawing, showing the blue plastic capsules being drawn by military officials.</div>
+      </div>
+      <div class="img-caption">Fig. 3 — The 1969 Draft Lottery</div>
+
+      <div class="section-block">
+        <h2>Why this context matters</h2>
+        <p>The draft did not appear out of nowhere. It was built on top of a Cold War foreign policy that assumed compulsory service, and on top of a Selective Service apparatus that had channeled American men into uniform since World War I. What made Vietnam different was not the existence of the draft. It was the combination of an undeclared war, a transparently unequal lottery, and a generation willing to refuse.</p>
+        <p>The next three sections examine how that refusal took shape. Together, they form the case that public resistance, not federal policy, ended American conscription.</p>
+      </div>
+
+      <nav class="page-pagination">
+        <a href="index.html" class="page-pag-prev">
+          <span class="page-pag-label">← Previous</span>
+          <span class="page-pag-title">Home</span>
+        </a>
+        <a href="disobedience.html" class="page-pag-next">
+          <span class="page-pag-label">Next →</span>
+          <span class="page-pag-title">Civil Disobedience</span>
+        </a>
+      </nav>
+
+    </section>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-brand">★ APUSH History Fair 2025–2026 ★</div>
+  <div class="footer-names">Atrey Iyer · Hemanth Samayamantri · Anuj Subramanian</div>
+  <div class="footer-meta">National History Day Theme: Revolution, Reaction, Reform in History</div>
+</footer>
+
+<script>
+  document.querySelectorAll('.page-nav a').forEach(a => {
+    a.addEventListener('click', () => document.querySelector('.page-nav').classList.remove('open'));
+  });
+</script>
+
+</body>
+</html>
